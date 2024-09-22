@@ -3,7 +3,7 @@ import socket
 # Crea un socket UDP
 udp_server_socket = socket.socket(
     socket.AF_INET, socket.SOCK_DGRAM
-)  # Address Family - Internet. è il formato ipv4
+)  # AF_INET Address Family - Internet. è il formato ipv4
 
 # Associa il socket a un indirizzo e una porta
 server_address = ("localhost", 12345)

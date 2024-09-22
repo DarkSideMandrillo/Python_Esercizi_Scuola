@@ -5,7 +5,7 @@ import socket
 udp_client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Imposta l'indirizzo e la porta del server
-server_address = ("192.168.188.20", 12345)
+server_address = ("localhost", 12345)
 
 # Messaggio da inviare | La codifica è unicode, deve essere trasformata in utf-8
 message = b"Ciao, server UDP!"  # trasforma la stringa da Unicode a formato byte
