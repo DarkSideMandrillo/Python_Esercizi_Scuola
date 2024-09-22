@@ -8,6 +8,26 @@ lista = [
 # Stampa la lista
 print(lista)
 
+print(f"Lunghezza lista: {len(lista)}")
+print(f"Lunghezza lista[0]: {len(lista[0])}")
+print(f"Lunghezza lista[0][0]: {len(lista[0][0])}")
+print(f"Lunghezza lista[0][1]: {len(lista[0][1])}")
+
+
+print(f"Range lista: {range(len(lista))}")
+print(f"Range lista[0]: {range(len(lista[0]))}")
+print(f"Range lista[0][0]: {range(len(lista[0][0]))}")
+print(f"Range lista[0][1]: {range(len(lista[0][1]))}")
+
+
+
+
+
+
+
+
+
+
 # Aumenta di 1 tutti i valori della lista
 for a in range(len(lista)):
   for b in range(len(lista[a])):
