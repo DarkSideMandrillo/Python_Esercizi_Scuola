@@ -19,6 +19,9 @@ print(f"Range lista[0]: {range(len(lista[0]))}")
 print(f"Range lista[0][0]: {range(len(lista[0][0]))}")
 print(f"Range lista[0][1]: {range(len(lista[0][1]))}")
 
+for l in range(len(lista)):
+  print(l) # (0,3)
+
 
 
 
