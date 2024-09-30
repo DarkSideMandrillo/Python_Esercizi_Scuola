@@ -1,20 +1,23 @@
 import threading
 import socket
 
-SERVER_ADDRESS = ('localhost', 12345)
+SERVER_ADDRESS = ("localhost", 12345)
 BUFFER_SIZE = 4092
 
+
 def sendText(client_socket):
-    message=""
+    message = ""
     while message != "exit()":
-      message= input("Chat1: ")
-      client_socket.sendto(message.encode(), SERVER_ADDRESS)
+        message = input()
+        client_socket.sendto(message.encode(), SERVER_ADDRESS)
     client_socket.close()
+
 
 def listenToServer(client_socket):
     while True:
         data, client_address = client_socket.recvfrom(BUFFER_SIZE)
-        print(f"Chat2: {data.decode()}")
+        print(f"\nChatX: {data.decode()}\n")
+
 
 def main():
     # Creo il socket
@@ -24,8 +27,9 @@ def main():
     # Creo thread e avvio
     thread = threading.Thread(target=listenToServer, args=(client_socket,))
     thread.start()
-        # Funzione per scrivere
+    # Funzione per scrivere
     sendText(client_socket)
+
 
 if __name__ == "__main__":
     main()

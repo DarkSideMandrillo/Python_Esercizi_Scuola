@@ -12,11 +12,11 @@ tcp_server_socket.listen(1)  # Dimensione coda connessioni
 print("Server TCP in attesa di connessioni...")
 
 # Accetta una connessione
-conn, address = tcp_server_socket.accept()
+conn, address = tcp_server_socket.accept()  # Bloccante
 print(f"Connessione stabilita con {address}")
 
 # Riceve dal client
-data = conn.recv(4096)
+data = conn.recv(4096)  # Bloccante
 print(f"Messaggio ricevuto: {data.decode()}")
 
 # Invia una risposta al client

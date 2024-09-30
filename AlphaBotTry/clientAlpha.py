@@ -30,8 +30,8 @@ def main():
 
             command_value = input("Value->")
             if not command_value.isdigit():
-                print("Valore non valido, utilizzo 0 come predefinito.")
-                command_value = 0
+                print("Valore non valido.")
+                continue
             else:
                 command_value = int(command_value)
 
@@ -40,7 +40,7 @@ def main():
             tcp_client_socket.sendall(message.encode())
 
             # Aspetto la risposta
-            response_message = tcp_client_socket.recv(BUFFER_SIZE)
+            response_message = tcp_client_socket.recv(BUFFER_SIZE)  # Bloccante
             print("Risposta del server", response_message.decode())
 
             if command_send == 0:
