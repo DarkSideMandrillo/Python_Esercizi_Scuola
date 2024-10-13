@@ -1,0 +1,4 @@
+Questo è un esempio di scrittura su file.
+Questa è una nuova riga.
+Aggiungo questa riga alla fine del file.
+Nuova riga aggiunta in modalità r+.
