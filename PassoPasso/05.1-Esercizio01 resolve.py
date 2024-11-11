@@ -95,6 +95,7 @@ valore_inventario_cat = {
     )
     for categoria in {prodotto["categoria"] for prodotto in prodotti}
 }
+print(valore_inventario_cat)
 
 # Prodotti da Riordinare: Un prodotto deve essere riordinato se la sua
 # quantità è inferiore a 10. Crea una lista di dizionari contenenti solo i

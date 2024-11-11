@@ -3,6 +3,7 @@
 # List Comprehension
 # [espressione for elemento in iterabile if condizione]
 
+
 numeri = [1, 2, 3, 4, 5]
 quadrati = [x**2 for x in numeri]
 print(quadrati)

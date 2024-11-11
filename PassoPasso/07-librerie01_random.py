@@ -1,6 +1,5 @@
 import random
 
-
 print(random.random())  # Output: un numero casuale tra 0.0 e 1.0
 
 print(random.randint(1, 10))  # Output: un numero intero tra 1 e 10

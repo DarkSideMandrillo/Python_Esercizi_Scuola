@@ -1,4 +1,5 @@
-# Hai a disposizione un dataset che rappresenta l’inventario di un negozio sotto forma di una lista di dizionari. Ogni dizionario rappresenta un prodotto e contiene le seguenti informazioni:
+# Hai a disposizione un dataset che rappresenta l’inventario di un negozio sotto 
+# forma di una lista di dizionari. Ogni dizionario rappresenta un prodotto e contiene le seguenti informazioni:
 # "nome": il nome del prodotto (stringa)
 # "categoria": la categoria a cui appartiene (es. "elettronica", "abbigliamento", "cucina") (stringa)
 # "prezzo": il prezzo del prodotto (numero float)
@@ -12,20 +13,36 @@ prodotti = [
         "prezzo": 499.99,
         "quantita": 10,
     },
-    {"nome": "frullatore", "categoria": "cucina", "prezzo": 79.99, "quantita": 20},
+    {
+        "nome": "frullatore",
+        "categoria": "cucina",
+        "prezzo": 79.99,
+        "quantita": 20,
+    },
     {
         "nome": "maglietta",
         "categoria": "abbigliamento",
         "prezzo": 15.99,
         "quantita": 100,
     },
-    {"nome": "laptop", "categoria": "elettronica", "prezzo": 899.99, "quantita": 5},
-    {"nome": "pentola", "categoria": "cucina", "prezzo": 29.99, "quantita": 50},
+    {
+        "nome": "laptop",
+        "categoria": "elettronica",
+        "prezzo": 899.99,
+        "quantita": 5,
+    },
+    {
+        "nome": "pentola",
+        "categoria": "cucina",
+        "prezzo": 29.99,
+        "quantita": 50,
+    },
 ]
 
 # Prodotti in Offerta:
 # Crea una lista di nomi di prodotti il cui prezzo è inferiore a 100 euro.
 prodotti_economici = []
+print(prodotti_economici)
 
 # Valore Totale dell'Inventario:
 # Calcola il valore totale sommato dei prodotti
