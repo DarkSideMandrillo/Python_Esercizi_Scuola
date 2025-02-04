@@ -52,14 +52,12 @@ def func4():
         if "file" in locals():
             file.close()
 
-
 def main():
     func0()
     func1()
     func2()
     func3()
     func4()
-
 
 if __name__ == "__main__":
     # Codice da eseguire quando lo script viene eseguito direttamente

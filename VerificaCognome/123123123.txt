@@ -1,0 +1,4 @@
+Eseguita funzione: mia_funzione alle: 2025-01-29 13:17:42.396773
+Eseguita funzione: mia_funzione2 alle: 2025-01-29 13:17:42.398047
+Eseguita funzione: mia_funzione alle: 2025-01-29 13:17:42.399099
+Eseguita funzione: mia_funzione2 alle: 2025-01-29 13:17:42.399246

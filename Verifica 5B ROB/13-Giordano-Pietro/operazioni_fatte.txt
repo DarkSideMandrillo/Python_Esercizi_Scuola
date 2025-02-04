@@ -1,0 +1,10 @@
+Client 1: 5+6*(454483+3447) = 2747585
+Client 1: 56*43 = 2408
+Client 1: (4566-336364)/5 = -66359.6
+Client 1: (1+2+3+4+5+6+7+8+9+10)*5 = 275
+Client 1: 4839489949%2 = 1
+Client 2: 5*11738829. = 58694145.0
+Client 2: 4+5+6+7./(8573*337) +3-23 = -4.999997577100974
+Client 2: 78*747483?z34 = Errore: invalid syntax (<string>, line 1)
+Client 2: 34463626*3636s551 = Errore: unexpected EOF while parsing (<string>, line 1)
+Client 2: 238238292929*1162626%3322 = 1570

@@ -15,11 +15,14 @@
 # -mostra_libreria(libreria) - Mostra l'elenco di tutti i libri con le loro medie.
 
 # ESEMPIO DEL DIZIONARIO
-#   {
+#     {
 # 'Il Signore degli Anelli': {
 # 'autore': 'J.R.R. Tolkien',
 # 'valutazioni': [5, 4]
 # }
+
+dizionarioTest = {}
+dizionarioTest["1984"] = {"autore": "orwell", "valutazioni": []}
 
 # In python gli oggetti immutabili vengono passati by value
 # tutto il resto byRef
@@ -37,7 +40,7 @@ def addRating(library, name, rating):
         library[name]["ratings"].append(rating)
 
 
-def averageBookRating(library, name):
+def average_book_rating(library, name):
     average = 0
     if len(library[name]["ratings"]) > 0:
         for rating in library[name]["ratings"]:
@@ -48,9 +51,9 @@ def averageBookRating(library, name):
     # return sum(valutazioni) / len(valutazioni) if valutazioni else 0
 
 
-def showLibrary(library):
+def show_library(library):
     for key, value in library.items():
-        print(f"Titolo: {key} | Media punteggio: {averageBookRating(library,key)}")
+        print(f"Titolo: {key} | Media punteggio: {average_book_rating(library,key)}")
     # [print(f"Titolo: {book_name}, Autore: {info['autore']}, Media Valutazioni: {averageBookRating(library, book_name):.2f}") for book_name, info in library.items()]
 
 

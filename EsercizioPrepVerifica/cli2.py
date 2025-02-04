@@ -14,7 +14,8 @@ def start_client(host='127.0.0.1', port=12345):
                             1 - chiedere se un certo nome file è presente (input nome)
                             2 - chiedere il numero di frammenti di un file (input nome)
                             3 - chiedere l’IP dell’host che ospita un frammento (input nome, n°frammento)
-                            4 - chiedere gli IP degli host sui quali sono salvati i frammenti di un file (input nome)"""))
+                            4 - chiedere gli IP degli host sui quali sono salvati i frammenti di un file (input nome)
+"""))
             match scelta:
                 case 1:
                     name = input("Inserisci il nome del file")

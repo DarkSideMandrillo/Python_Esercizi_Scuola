@@ -1,0 +1,108 @@
+Categoria: accessori
+- pentola: 15431.07
+- cuffie: 8887.14
+- laptop: 3069.78
+- televisore: 11979.79
+- pentola: 39780.18
+- laptop: 2094.00
+- maglietta: 50.83
+- asciugacapelli: 410.00
+- maglietta: 2948.96
+- pentola: 11238.66
+- televisore: 11990.30
+- pentola: 16030.30
+- maglietta: 3727.68
+- zaino: 3440.23
+- maglietta: 7931.44
+- pentola: 25965.86
+- maglietta: 8149.29
+- pentola: 1595.27
+- laptop: 17840.65
+- zaino: 2532.04
+
+Categoria: ufficio
+- smartphone: 12644.60
+- smartphone: 15333.12
+- smartphone: 27566.91
+- laptop: 8491.84
+- laptop: 1065.13
+- cuffie: 12857.46
+- frullatore: 6924.69
+- asciugacapelli: 18503.33
+- pentola: 925.58
+- zaino: 20054.16
+- televisore: 11119.02
+- televisore: 15869.25
+- stampante: 21506.10
+- maglietta: 4658.06
+- maglietta: 34060.95
+- laptop: 3858.80
+- cuffie: 19650.96
+- laptop: 13499.16
+- cuffie: 1254.22
+- smartphone: 508.32
+
+Categoria: elettronica
+- frullatore: 6078.42
+- maglietta: 25297.11
+- asciugacapelli: 6008.86
+- pentola: 4915.08
+- pentola: 13320.30
+- cuffie: 25860.90
+- televisore: 5018.96
+- zaino: 3389.28
+- stampante: 530.88
+- frullatore: 5685.42
+- frullatore: 8235.81
+- cuffie: 29134.95
+- televisore: 12087.04
+- asciugacapelli: 14019.75
+- maglietta: 582.12
+- laptop: 13551.45
+- zaino: 7423.02
+- pentola: 2103.84
+- smartphone: 7057.60
+- smartphone: 36962.52
+- maglietta: 6241.62
+- laptop: 14661.00
+
+Categoria: abbigliamento
+- stampante: 6745.60
+- televisore: 42265.22
+- cuffie: 19229.11
+- maglietta: 2775.90
+- cuffie: 777.87
+- maglietta: 14992.74
+- pentola: 29822.73
+- cuffie: 2250.32
+- laptop: 18650.07
+- pentola: 3401.59
+- smartphone: 11243.52
+- maglietta: 3108.51
+- cuffie: 7193.85
+- laptop: 43675.22
+- laptop: 14292.90
+
+Categoria: cucina
+- asciugacapelli: 13972.85
+- maglietta: 5975.86
+- laptop: 1498.00
+- pentola: 18150.00
+- zaino: 26534.28
+- pentola: 2159.25
+- cuffie: 41709.60
+- laptop: 39437.16
+- maglietta: 3515.52
+- zaino: 4201.73
+- zaino: 15279.04
+- frullatore: 2014.27
+- pentola: 29582.72
+- televisore: 7364.79
+- frullatore: 40414.50
+- frullatore: 31320.05
+- smartphone: 33297.78
+- cuffie: 2816.98
+- cuffie: 1990.80
+- zaino: 29612.05
+- frullatore: 9717.60
+

@@ -1,4 +1,4 @@
-# Hai a disposizione un dataset che rappresenta l’inventario di un negozio sotto 
+# Hai a disposizione un dataset che rappresenta l’inventario di un negozio sotto
 # forma di una lista di dizionari. Ogni dizionario rappresenta un prodotto e contiene le seguenti informazioni:
 # "nome": il nome del prodotto (stringa)
 # "categoria": la categoria a cui appartiene (es. "elettronica", "abbigliamento", "cucina") (stringa)
@@ -39,14 +39,17 @@ prodotti = [
     },
 ]
 
+
 # Prodotti in Offerta:
 # Crea una lista di nomi di prodotti il cui prezzo è inferiore a 100 euro.
-prodotti_economici = []
+prodotti_economici = [
+    prodotto["nome"] for prodotto in prodotti if prodotto["prezzo"] < 100
+]
 print(prodotti_economici)
 
 # Valore Totale dell'Inventario:
 # Calcola il valore totale sommato dei prodotti
-valore_inventario_tot = sum()
+# valore_inventario_tot = sum()
 
 # Valore Totale per ogni prodotto:
 # Crea una lista di tuple con nome e costo totale
@@ -60,10 +63,41 @@ categorie_uniche = {}
 prodotti_riordinare = []
 
 # Crea un dizionario con categorie e liste di tuple (nome prodotto, valore totale)
-# Serve usare il set creato in precedenza
-cat_valore_prodotto = {}
 
-# DIFFICILE
-# Valore Totale dell'Inventario per categoria:
-# Crea un dizionario in cui le chiavi sono le categorie e i valori sono
-# il totale del valore dei prodotti # appartenenti a quella categoria.
+diz_cat = {
+    categoria: [
+        (prodotto["nome"], prodotto["prezzo"] * prodotto["quantita"])
+        for prodotto in prodotti
+        if prodotto["categoria"] == categoria
+    ]
+    for categoria in {prodotto["categoria"] for prodotto in prodotti}
+}
+print(diz_cat)
+
+
+# cat_valore_prodotto = {
+#     categoria: [
+#         (
+#             prodotto["nome"],
+#             prodotto["prezzo"] * prodotto["quantita"],
+#         )
+#         for prodotto in prodotti
+#         if prodotto["categoria"] == categoria
+#     ]
+#     for categoria in {prodotto["categoria"] for prodotto in prodotti}
+# }
+# print(cat_valore_prodotto)
+
+# # DIFFICILE
+# # Valore Totale dell'Inventario per categoria:
+# # Crea un dizionario in cui le chiavi sono le categorie e i valori sono
+# # il totale del valore dei prodotti # appartenenti a quella categoria.
+# cat_valore = {
+#     categoria: sum(
+#         (prodotto["prezzo"] * prodotto["quantita"])
+#         for prodotto in prodotti
+#         if prodotto["categoria"] == categoria
+#     )
+#     for categoria in {prodotto["categoria"] for prodotto in prodotti}
+# }
+# print(cat_valore)
